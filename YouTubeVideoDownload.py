@@ -5,8 +5,8 @@ link = sys.argv[1]
 
 try:
     yt = YouTube(link)
-    print("Titolo: ", yt.title)
-    print("Visualizzazioni: ", yt.views)
+    print("\nTitolo: ", yt.title)
+    
 
     yd = yt.streams.get_highest_resolution()
 
@@ -14,7 +14,7 @@ try:
     destination_folder = r'C:\Users\Max\Videos'
 
     yd.download(destination_folder)
-    print("\nDownload completato!")
+    print("\nDownload completato!\n")
 
 except Exception as e:
     print("\nSi è verificato un errore:", str(e))
