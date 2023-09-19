@@ -7,4 +7,9 @@ Puoi farlo utilizzando il comando pip:
 
 Assicurati di sostituire C:\Users\Max\Videos con il percorso corretto della 
 cartella di destinazione in cui desideri salvare i video scaricati.
+
+
+Per utilizzare il programma da terminale:
+
+python3 YouTubeVideoDownload.py "URL_DEL_VIDEO_YOUTUBE"
      
